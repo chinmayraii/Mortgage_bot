@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-05-18T11:36:02.100430",
+    "startedAt": "2023-05-18T11:36:00.994964",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\Vinayak\\Desktop\\chinmay\\mortgages\\app\\views.py",
+    "codePath": "mortgages\\app\\views.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "'chinmayrai75@gmail.com'",
+    "root": "C:/Users/Vinayak/Desktop/chinmay",
+    "host": "DESKTOP-15M9BR5",
+    "username": "Vinayak",
+    "executable": "C:\\Users\\Vinayak\\Desktop\\chinmay\\mortgages\\venv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2904.0,
+        "min": 0.0,
+        "max": 2904.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2904.0,
+            "min": 0.0,
+            "max": 2904.0
+        }
+    ],
+    "disk": {
+        "total": 199.87108993530273,
+        "used": 138.9836769104004
+    },
+    "memory": {
+        "total": 7.841789245605469
+    }
+}

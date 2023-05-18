@@ -1,0 +1,5 @@
+loan_amount,interest_rate,loan_term,monthly_payment,lender
+200000,4.5,30,1013.37,ABC Bank
+150000,3.75,20,917.05,XYZ Mortgage
+300000,5.0,30,1610.46,DEF Finance
+250000,4.25,15,1853.67,GHI Loans

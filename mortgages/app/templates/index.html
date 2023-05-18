@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mortgage Chatbot</title>
+</head>
+<body>
+    <h1>Mortgage Chatbot</h1>
+
+    <div>
+        <label for="input">User Input:</label>
+        <input type="text" id="input">
+    </div>
+
+    <div>
+        <label for="response">Chatbot Response:</label>
+        <p id="response"></p>
+    </div>
+
+    <button onclick="getChatbotResponse()">Submit</button>
+
+    <script>
+        function getChatbotResponse() {
+            var input = document.getElementById("input").value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/mortgage-chatbot/?input=" + input, true);
+            xhr.onload = function() {
+                if (xhr.status == 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    document.getElementById("response").innerHTML = response.response;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
